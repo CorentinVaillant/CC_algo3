@@ -1,0 +1,7 @@
+digraph QuadTree {
+	graph [ranksep=0.75, nodesep = 0.75];
+	node [shape = record];
+
+	n0x4a8a2b0 [style=filled, fillcolor=aquamarine4, label="6 points"];
+
+}

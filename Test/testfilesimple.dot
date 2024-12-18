@@ -1,0 +1,47 @@
+digraph QuadTree {
+	graph [ranksep=0.75, nodesep = 0.75];
+	node [shape = record];
+
+	n0x4a8a2b0 [label="{{<upleft>|<upright>}|{<downleft>|<downright>}}"];
+	n0x4a8a2b0:upleft:c -> n0x4a8a9d0:n [headclip=false, tailclip=false, color=blueviolet]
+	n0x4a8a2b0:downleft:c -> n0x4a8a940:n [headclip=false, tailclip=false, color=gold]
+	n0x4a8a2b0:downright:c -> n0x4a8a8b0:n [headclip=false, tailclip=false, color=coral]
+	n0x4a8a2b0:upright:c -> n0x4a8a820:n [headclip=false, tailclip=false, color=burlywood]
+	n0x4a8a820 [style=filled, fillcolor=dodgerblue, label="Empty"];
+	n0x4a8a8b0 [label="{{<upleft>|<upright>}|{<downleft>|<downright>}}"];
+	n0x4a8a8b0:upleft:c -> n0x4a8b270:n [headclip=false, tailclip=false, color=blueviolet]
+	n0x4a8a8b0:downleft:c -> n0x4a8b1e0:n [headclip=false, tailclip=false, color=gold]
+	n0x4a8a8b0:downright:c -> n0x4a8b150:n [headclip=false, tailclip=false, color=coral]
+	n0x4a8a8b0:upright:c -> n0x4a8b0c0:n [headclip=false, tailclip=false, color=burlywood]
+	n0x4a8b0c0 [style=filled, fillcolor=dodgerblue, label="Empty"];
+	n0x4a8b150 [label="{{<upleft>|<upright>}|{<downleft>|<downright>}}"];
+	n0x4a8b150:upleft:c -> n0x4a8b550:n [headclip=false, tailclip=false, color=blueviolet]
+	n0x4a8b150:downleft:c -> n0x4a8b4c0:n [headclip=false, tailclip=false, color=gold]
+	n0x4a8b150:downright:c -> n0x4a8b430:n [headclip=false, tailclip=false, color=coral]
+	n0x4a8b150:upright:c -> n0x4a8b3a0:n [headclip=false, tailclip=false, color=burlywood]
+	n0x4a8b3a0 [style=filled, fillcolor=aquamarine4, label="1 point"];
+	n0x4a8b430 [style=filled, fillcolor=dodgerblue, label="Empty"];
+	n0x4a8b4c0 [style=filled, fillcolor=aquamarine4, label="1 point"];
+	n0x4a8b550 [style=filled, fillcolor=dodgerblue, label="Empty"];
+	n0x4a8b1e0 [style=filled, fillcolor=dodgerblue, label="Empty"];
+	n0x4a8b270 [style=filled, fillcolor=aquamarine4, label="1 point"];
+	n0x4a8a940 [label="{{<upleft>|<upright>}|{<downleft>|<downright>}}"];
+	n0x4a8a940:upleft:c -> n0x4a8acb0:n [headclip=false, tailclip=false, color=blueviolet]
+	n0x4a8a940:downleft:c -> n0x4a8ac20:n [headclip=false, tailclip=false, color=gold]
+	n0x4a8a940:downright:c -> n0x4a8ab90:n [headclip=false, tailclip=false, color=coral]
+	n0x4a8a940:upright:c -> n0x4a8ab00:n [headclip=false, tailclip=false, color=burlywood]
+	n0x4a8ab00 [style=filled, fillcolor=dodgerblue, label="Empty"];
+	n0x4a8ab90 [style=filled, fillcolor=dodgerblue, label="Empty"];
+	n0x4a8ac20 [label="{{<upleft>|<upright>}|{<downleft>|<downright>}}"];
+	n0x4a8ac20:upleft:c -> n0x4a8af40:n [headclip=false, tailclip=false, color=blueviolet]
+	n0x4a8ac20:downleft:c -> n0x4a8aeb0:n [headclip=false, tailclip=false, color=gold]
+	n0x4a8ac20:downright:c -> n0x4a8ae20:n [headclip=false, tailclip=false, color=coral]
+	n0x4a8ac20:upright:c -> n0x4a8ad90:n [headclip=false, tailclip=false, color=burlywood]
+	n0x4a8ad90 [style=filled, fillcolor=aquamarine4, label="1 point"];
+	n0x4a8ae20 [style=filled, fillcolor=dodgerblue, label="Empty"];
+	n0x4a8aeb0 [style=filled, fillcolor=aquamarine4, label="1 point"];
+	n0x4a8af40 [style=filled, fillcolor=dodgerblue, label="Empty"];
+	n0x4a8acb0 [style=filled, fillcolor=dodgerblue, label="Empty"];
+	n0x4a8a9d0 [style=filled, fillcolor=aquamarine4, label="1 point"];
+
+}
